@@ -13,9 +13,9 @@
 - [x] Task: Prompt Injector 60d1fc6
   - [x] Write Tests: Create unit tests verifying that `PromptInjector` correctly formats the final string with variables.
   - [x] Implement Feature: Implement `PromptInjector` that combines `PromptTemplate` with `ContextState`.
-- [~] Task: Parameter Configuration
-  - [ ] Write Tests: Create unit tests for `AiConfig` validation.
-  - [ ] Implement Feature: Implement `AiConfig` with default temperature, max tokens, and system instructions.
+- [x] Task: Parameter Configuration 383c8a2
+  - [x] Write Tests: Create unit tests for `AiConfig` validation.
+  - [x] Implement Feature: Implement `AiConfig` with default temperature, max tokens, and system instructions.
 - [ ] Task: Conductor - User Manual Verification 'Phase 2: Prompt Construction and Injection' (Protocol in workflow.md)
 
 ## Phase 3: Iterative Testing Pipeline
