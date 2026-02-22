@@ -37,6 +37,15 @@ android {
     buildFeatures {
         compose = true
     }
+    buildToolsVersion = "36.1.0"
+    ndkVersion = "29.0.14206865"
+    compileSdkVersion("android-36.1")
+}
+
+kotlin {
+    compilerOptions {
+        jvmTarget.set(org.jetbrains.kotlin.gradle.dsl.JvmTarget.JVM_11)
+    }
 }
 
 dependencies {
