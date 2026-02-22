@@ -10,10 +10,10 @@
 - [x] Task: Conductor - User Manual Verification 'Phase 1: Context and Formatting Models' (Protocol in workflow.md)
 
 ## Phase 2: Prompt Construction and Injection
-- [ ] Task: Prompt Injector
-  - [ ] Write Tests: Create unit tests verifying that `PromptInjector` correctly formats the final string with variables.
-  - [ ] Implement Feature: Implement `PromptInjector` that combines `PromptTemplate` with `ContextState`.
-- [ ] Task: Parameter Configuration
+- [x] Task: Prompt Injector 60d1fc6
+  - [x] Write Tests: Create unit tests verifying that `PromptInjector` correctly formats the final string with variables.
+  - [x] Implement Feature: Implement `PromptInjector` that combines `PromptTemplate` with `ContextState`.
+- [~] Task: Parameter Configuration
   - [ ] Write Tests: Create unit tests for `AiConfig` validation.
   - [ ] Implement Feature: Implement `AiConfig` with default temperature, max tokens, and system instructions.
 - [ ] Task: Conductor - User Manual Verification 'Phase 2: Prompt Construction and Injection' (Protocol in workflow.md)
