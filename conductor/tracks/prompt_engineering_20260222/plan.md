@@ -19,7 +19,7 @@
 - [x] Task: Conductor - User Manual Verification 'Phase 2: Prompt Construction and Injection' (Protocol in workflow.md)
 
 ## Phase 3: Iterative Testing Pipeline
-- [ ] Task: Iterative Test Suite Setup
-  - [ ] Write Tests: Set up test doubles (mocks/fakes) for the AI client.
-  - [ ] Implement Feature: Create an `IterativeTestingSuite` to batch-run prompts against expected outputs.
+- [x] Task: Iterative Test Suite Setup fa85169
+  - [x] Write Tests: Set up test doubles (mocks/fakes) for the AI client.
+  - [x] Implement Feature: Create an `IterativeTestingSuite` to batch-run prompts against expected outputs.
 - [ ] Task: Conductor - User Manual Verification 'Phase 3: Iterative Testing Pipeline' (Protocol in workflow.md)
