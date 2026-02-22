@@ -1,9 +1,9 @@
 # Implementation Plan: AI Prompt Engineering Pipeline
 
 ## Phase 1: Context and Formatting Models
-- [ ] Task: Define Data Models
-  - [ ] Write Tests: Create unit tests for `ContextState` and `PromptTemplate` serialization and parsing.
-  - [ ] Implement Feature: Create `ContextState` (to hold current tasks/time) and `PromptTemplate` data classes.
+- [x] Task: Define Data Models 599d480
+  - [x] Write Tests: Create unit tests for `ContextState` and `PromptTemplate` serialization and parsing.
+  - [x] Implement Feature: Create `ContextState` (to hold current tasks/time) and `PromptTemplate` data classes.
 - [ ] Task: Output Formatting Parser
   - [ ] Write Tests: Create unit tests for parsing structured JSON/Markdown from AI responses.
   - [ ] Implement Feature: Implement `StructuredResponseParser` to safely extract task data.
