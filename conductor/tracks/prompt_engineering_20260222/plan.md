@@ -4,9 +4,9 @@
 - [x] Task: Define Data Models 599d480
   - [x] Write Tests: Create unit tests for `ContextState` and `PromptTemplate` serialization and parsing.
   - [x] Implement Feature: Create `ContextState` (to hold current tasks/time) and `PromptTemplate` data classes.
-- [ ] Task: Output Formatting Parser
-  - [ ] Write Tests: Create unit tests for parsing structured JSON/Markdown from AI responses.
-  - [ ] Implement Feature: Implement `StructuredResponseParser` to safely extract task data.
+- [x] Task: Output Formatting Parser 4dcc267
+  - [x] Write Tests: Create unit tests for parsing structured JSON/Markdown from AI responses.
+  - [x] Implement Feature: Implement `StructuredResponseParser` to safely extract task data.
 - [ ] Task: Conductor - User Manual Verification 'Phase 1: Context and Formatting Models' (Protocol in workflow.md)
 
 ## Phase 2: Prompt Construction and Injection
