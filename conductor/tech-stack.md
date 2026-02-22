@@ -18,6 +18,8 @@
 
 ## AI and Conversational Logic
 - **Integration:** Scalable architecture to support on-device (ML Kit) or cloud-based (Gemini/OpenAI) AI.
+- **Pipeline:** Custom Prompt Engineering Pipeline with context injection, parameter configuration (`AiConfig`), and automated prompt batch-testing.
+- **Output Parsing:** Robust structured response extraction using `kotlinx.serialization`.
 - **Interaction:** Custom conversational Compose components designed for high responsiveness.
 
 ## Testing
