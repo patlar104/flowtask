@@ -1,0 +1,17 @@
+---
+description: Strictly recommended task completion protocol with commit hygiene and git notes
+alwaysApply: true
+---
+
+# FlowTask Task Completion Protocol
+
+- This protocol is strictly recommended whenever a task is finished.
+- Before marking a task done, verify with relevant commands and report outcomes.
+- Commit only task-relevant files; exclude local IDE/device artifacts and logs.
+- After each task commit, attach a git note summarizing:
+  - task name
+  - why the change was made
+  - files changed
+  - verification commands and results
+- If the conductor plan is updated for task/phase status, create a separate plan-status commit.
+- When uncertain whether a file belongs in the task commit, ask before committing.

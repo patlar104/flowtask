@@ -1,0 +1,14 @@
+---
+description: Kotlin and Android quality practices for FlowTask app code
+globs: app/src/**/*.kt
+alwaysApply: false
+---
+
+# FlowTask Android Kotlin Quality
+
+- Prefer explicit error paths over broad catch-all handlers that hide failures.
+- Keep parsing code observable: return typed failures or log actionable diagnostics.
+- Write or update unit tests for behavior changes in prompting and parsing logic.
+- Avoid inline imports; keep imports at the top of files.
+- Use exhaustive `when` handling for enums and sealed types.
+- Keep UI and domain logic separated; avoid embedding business logic in `MainActivity`.

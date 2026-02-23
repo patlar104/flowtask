@@ -1,0 +1,13 @@
+---
+description: Balanced FlowTask execution defaults for safe, fast iteration
+alwaysApply: true
+---
+
+# FlowTask Balanced Core
+
+- Keep changes scoped and reversible; avoid broad refactors unless requested.
+- Before claiming success, run relevant verification commands and report results.
+- Prefer fixing root causes over suppressing warnings or errors.
+- If a command can be slow, run with a longer wait strategy or monitor in background until completion.
+- Keep commit hygiene clean: do not commit logs, secrets, or environment-specific local files.
+- Surface assumptions early when requirements are ambiguous.

@@ -1,0 +1,13 @@
+---
+description: Security and data-hygiene safeguards for FlowTask changes
+alwaysApply: true
+---
+
+# FlowTask Security Hygiene
+
+- Never commit debug logs such as `firebase-debug.log` or credential-adjacent artifacts.
+- Treat AI inputs/outputs as untrusted; validate and sanitize before use.
+- For parser/template changes, preserve strict handling for malformed responses.
+- Revisit Android backup settings when adding user data persistence; avoid permissive defaults.
+- Do not hardcode secrets, tokens, or API keys in source or tests.
+- Call out security-impacting changes explicitly in review summaries.

@@ -54,4 +54,36 @@ class StructuredResponseParserTest {
         
         assertTrue(parsedTasks.isEmpty())
     }
+
+    @Test
+    fun `parseTasksDetailed returns parsed tasks and no error for valid input`() {
+        val jsonResponse = """
+            {
+                "tasks": [
+                    { "title": "Buy groceries", "priority": "HIGH" }
+                ]
+            }
+        """.trimIndent()
+
+        val parser = StructuredResponseParser()
+        val result = parser.parseTasksDetailed(jsonResponse)
+
+        assertEquals(1, result.tasks.size)
+        assertEquals("Buy groceries", result.tasks[0].title)
+        assertTrue(result.error == null)
+    }
+
+    @Test
+    fun `parseTasksDetailed returns error details for invalid input while parseTasks stays backward compatible`() {
+        val invalidResponse = "This is just some text without structured tasks."
+        val parser = StructuredResponseParser()
+
+        val detailed = parser.parseTasksDetailed(invalidResponse)
+        val legacy = parser.parseTasks(invalidResponse)
+
+        assertTrue(legacy.isEmpty())
+        assertTrue(detailed.tasks.isEmpty())
+        assertTrue(detailed.error != null)
+        assertTrue(detailed.error!!.reason.isNotBlank())
+    }
 }
