@@ -13,6 +13,7 @@
 ## 3. User Experience (UX)
 - **Fluid Navigation:** Minimize nested menus. Use conversational flows to jump directly to specific task actions.
 - **Immediate Response:** Ensure UI transitions and AI responses feel instantaneous to support the "Flow" state.
+- **Failure Transparency:** When AI or network operations fail, show clear, actionable messages instead of silent empty states.
 - **Accessibility by Design:**
     - High contrast for readability.
     - Full screen-reader support (TalkBack).
@@ -22,3 +23,4 @@
 - **Code-First:** When documenting technical details, prioritize clear code snippets and architectural diagrams.
 - **Consistent Terminology:** Always refer to the AI interface as the "Conversational Flow."
 - **Focus on 'Why':** Explain the rationale behind UX decisions to maintain a coherent vision across the development team.
+- **Identity Consistency:** Keep product name (`FlowTask`) and package/application identity (`com.patrick.flowtask`) aligned unless an explicit rename initiative is approved.

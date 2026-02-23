@@ -7,6 +7,7 @@ alwaysApply: true
 
 - Keep changes scoped and reversible; avoid broad refactors unless requested.
 - Before claiming success, run relevant verification commands and report results.
+- For major edits, verify behavior semantically (state/data/flow contracts) and not only by touched file paths.
 - Prefer fixing root causes over suppressing warnings or errors.
 - If a command can be slow, run with a longer wait strategy or monitor in background until completion.
 - Keep commit hygiene clean: do not commit logs, secrets, or environment-specific local files.

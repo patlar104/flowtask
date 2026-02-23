@@ -1,3 +1,36 @@
 <resources>
     <string name="app_name">FlowTask</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_tasks">Tasks</string>
+    <string name="nav_conversational_flow">Flow</string>
+    <string name="nav_settings">Settings</string>
+
+    <string name="home_title">FlowTask</string>
+    <string name="home_overview">Overview</string>
+    <string name="home_total_tasks">Total tasks: %1$d</string>
+    <string name="home_completed_tasks">Completed tasks: %1$d</string>
+
+    <string name="tasks_title">Tasks</string>
+    <string name="tasks_search_label">Search tasks</string>
+    <string name="tasks_add_label">Add task</string>
+    <string name="tasks_save_button">Save task</string>
+    <string name="tasks_delete_button">Delete</string>
+    <string name="tasks_empty">No tasks yet.</string>
+
+    <string name="flow_title">Conversational Flow</string>
+    <string name="flow_prompt_label">Describe what you need</string>
+    <string name="flow_submit_button">Submit</string>
+    <string name="flow_working_button">Working…</string>
+    <string name="flow_parse_error">I could not parse that response safely. Try rephrasing.</string>
+    <string name="flow_empty_result">No tasks found in that request.</string>
+    <string name="flow_added_tasks">Added %1$d task(s) from Conversational Flow.</string>
+
+    <string name="settings_title">Settings</string>
+    <string name="settings_app_name">App: %1$s</string>
+    <string name="settings_ai_surface">AI surface: %1$s</string>
+    <string name="settings_placeholder">More configuration will be added in the backend phases.</string>
+
+    <string name="identity_product_name">FlowTask</string>
+    <string name="identity_conversational_surface">Conversational Flow</string>
+    <string name="identity_package_name">com.patrick.flowtask</string>
 </resources>
